@@ -1,0 +1,2 @@
+# V1 管線只用 Python 標準庫（urllib、json、pathlib、datetime、zoneinfo）。
+# 無需安裝第三方套件。建議使用 Python 3.11 或以上。

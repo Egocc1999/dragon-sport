@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0b0f14">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="DRAGON SPORTS">
+  <meta name="description" content="DRAGON SPORTS 足球分析提示與賽程。開波前鎖定，賽後公開紙上往績。分析不保證獲勝。">
+  <meta name="format-detection" content="telephone=no">
+  <title>DRAGON SPORTS</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" type="image/svg+xml" href="./icons/icon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon.png">
+  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要內容</a>
+  <div class="app">
+    <header class="top">
+      <div class="brand">
+        <img class="seal" src="./icons/icon.svg" width="40" height="40" alt="">
+        <div class="brand-text">
+          <p class="wordmark">DRAGON SPORTS</p>
+          <p class="tagline">足球分析提示</p>
+        </div>
+      </div>
+      <p class="phase">V1 紙上往績階段，尚未收費</p>
+    </header>
+
+    <div id="demo-banner" class="demo-banner" hidden>示範資料，非真實往績</div>
+
+    <main id="main">
+      <section id="panel-today" class="panel" data-panel="today" hidden>
+        <h1 class="page-title">今日提示</h1>
+        <p class="page-lead">已鎖定、尚未完場的分析提示。提示只在開波前鎖定並公開。</p>
+        <div id="today-list" class="card-list"></div>
+      </section>
+
+
+      <section id="panel-fixtures" class="panel" data-panel="fixtures" hidden>
+        <h1 class="page-title">賽程</h1>
+        <p class="page-lead">四大聯賽賽程與賽果，按開波時間（香港時間）排列。未開波的場次不會顯示比分。</p>
+        <div id="fixture-status-filters" class="filters" role="tablist" aria-label="按開波狀態篩選"></div>
+        <div id="fixture-league-filters" class="filters" role="tablist" aria-label="按聯賽篩選"></div>
+        <div id="fixtures-list" class="fixture-list"></div>
+      </section>
+
+      <section id="panel-record" class="panel" data-panel="record" hidden>
+        <h1 class="page-title">往績</h1>
+        <p class="page-lead">已結算的提示，按開波時間由新至舊排列。賽後不改歷史。</p>
+        <div id="league-filters" class="filters" role="tablist" aria-label="按聯賽篩選"></div>
+        <div id="record-list" class="card-list"></div>
+      </section>
+
+      <section id="panel-stats" class="panel" data-panel="stats" hidden>
+        <h1 class="page-title">成績</h1>
+        <p class="page-lead">只計算已結算提示。沒有往績時不會顯示看起來像成績的零數字。</p>
+        <div id="stats-view"></div>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <p id="updated" class="updated" hidden></p>
+      <p>V1 紙上往績，提示會在開波前鎖定，賽後不改歷史；這不保證獲勝。</p>
+      <p class="foot-note">本站提供分析資料，並非博彩公司，亦不推介任何投注站。</p>
+      <p class="foot-attribution"><a href="https://5dollarfootballapi.com" rel="noopener noreferrer">Football data by 5DollarFootballAPI</a></p>
+    </footer>
+  </div>
+
+  <nav class="tabbar" aria-label="主要分頁">
+    <a href="#today" class="tab" data-tab="today">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M12 3 4 8v2h16V8l-8-5zm-6 8v8h4v-5h4v5h4v-8H6z"/></svg>
+      <span>今日提示</span>
+    </a>
+    <a href="#fixtures" class="tab" data-tab="fixtures">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M7 2h2v2h6V2h2v2h3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2V2zm14 8H3v10a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V10zM7 6H5v2h14V6H7z"/></svg>
+      <span>賽程</span>
+    </a>
+    <a href="#record" class="tab" data-tab="record">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M7 4h10a2 2 0 0 1 2 2v14l-7-3-7 3V6a2 2 0 0 1 2-2zm0 2v11.13l5-2.14 5 2.14V6H7z"/></svg>
+      <span>往績</span>
+    </a>
+    <a href="#stats" class="tab" data-tab="stats">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M5 19h14v2H5v-2zm1-3h2V9H6v7zm5 0h2V5h-2v11zm5 0h2v-8h-2v8z"/></svg>
+      <span>成績</span>
+    </a>
+  </nav>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>

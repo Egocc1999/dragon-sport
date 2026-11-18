@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="DRAGON SPORTS">
+  <rect width="512" height="512" rx="0" fill="#0b0f14"/>
+  <circle cx="256" cy="256" r="228" fill="#10161d" stroke="#c4a35a" stroke-width="18"/>
+  <circle cx="256" cy="256" r="198" fill="none" stroke="#c4a35a" stroke-width="2" opacity="0.45"/>
+  <text x="256" y="326" text-anchor="middle" font-size="252" font-weight="700"
+        font-family="Noto Sans TC, PingFang HK, PingFang TC, Noto Sans CJK TC, serif"
+        fill="#c4a35a">龍</text>
+</svg>

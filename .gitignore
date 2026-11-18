@@ -1,0 +1,36 @@
+# API keys and local secrets — never commit
+.api_key
+.api-key
+*.key
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# API cache (can contain quota metadata)
+cache/*
+!cache/.gitkeep
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Local helper output
+*.log
+
+# Raw vendor API dumps — do not republish the feed
+data/raw/
+
+# Local preview screenshots
+screenshots/

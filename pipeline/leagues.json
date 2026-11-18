@@ -1,0 +1,31 @@
+{
+  "note": "以下聯賽編號已於 2026-11-17 以 5DollarFootballAPI 即時核對，對應 2026-27 賽季。此為該供應商的編號，並非 API-Football 的 39/140/78/61。可直接改此檔。",
+  "season": 2026,
+  "season_note": "歐洲球季以開季年份表示；2026-27 球季的 season 參數為 2026。",
+  "leagues": [
+    {
+      "id": 4160026622,
+      "name_zh": "英超",
+      "name_en": "Premier League",
+      "country": "England"
+    },
+    {
+      "id": 4212821298,
+      "name_zh": "西甲",
+      "name_en": "La Liga",
+      "country": "Spain"
+    },
+    {
+      "id": 686337048,
+      "name_zh": "德甲",
+      "name_en": "Bundesliga",
+      "country": "Germany"
+    },
+    {
+      "id": 3614399544,
+      "name_zh": "法甲",
+      "name_en": "Ligue 1",
+      "country": "France"
+    }
+  ]
+}
