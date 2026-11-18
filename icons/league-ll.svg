@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-hidden="true">
+  <circle cx="32" cy="32" r="27" fill="#8e1b2a" stroke="#c4a35a" stroke-width="3"/>
+  <path d="M18 19 A20 11 0 0 1 46 19" fill="none" stroke="#e8c36a" stroke-width="2.4" stroke-linecap="round"/>
+  <text x="32" y="42" text-anchor="middle" font-size="17" font-weight="800"
+        font-family="Arial Black, Arial, Helvetica, sans-serif" fill="#c4a35a">LL</text>
+</svg>

@@ -3,6 +3,12 @@
 
   const PANELS = ["today", "fixtures", "record", "stats"];
   const LEAGUES = ["全部", "英超", "西甲", "德甲", "法甲"];
+  const LEAGUE_BADGE = {
+    "英超": "./icons/league-pl.svg",
+    "西甲": "./icons/league-ll.svg",
+    "德甲": "./icons/league-bl.svg",
+    "法甲": "./icons/league-l1.svg",
+  };
   const DISCLAIMER = "V1 紙上往績，提示會在開波前鎖定，賽後不改歷史；這不保證獲勝。";
 
   const state = {
@@ -19,6 +25,13 @@
   };
 
   const $ = (id) => document.getElementById(id);
+
+  function leagueBadgeHtml(name) {
+    const label = name || "";
+    const src = LEAGUE_BADGE[label];
+    if (!src) return escapeHtml(label);
+    return `<img class="league-badge" src="${src}" width="18" height="18" alt="" aria-hidden="true"><span>${escapeHtml(label)}</span>`;
+  }
 
   function isDemoMode() {
     const q = new URLSearchParams(location.search);
@@ -90,7 +103,7 @@
     return `
       <article class="card">
         <div class="card-head">
-          <span class="league-pill">${escapeHtml(tip.league || "")}</span>
+          <span class="league-pill">${leagueBadgeHtml(tip.league || "")}</span>
           <span class="status-pill ${st.cls}">${escapeHtml(st.text)}</span>
         </div>
         <h2 class="match">${escapeHtml(tip.match || "")}</h2>
@@ -241,7 +254,7 @@
       <article class="fx-card">
         <p class="fx-time">${escapeHtml(kickoffTime(fx.kickoff))}</p>
         <div class="fx-head">
-          <span class="league-pill">${escapeHtml(fx.league || "")}</span>
+          <span class="league-pill">${leagueBadgeHtml(fx.league || "")}</span>
           <span class="status-pill ${fixtureStatusClass(fx)}">${escapeHtml(fx.status_label || "")}</span>
         </div>
         <h2 class="fx-match">${escapeHtml(fx.match || `${fx.home || ""} 對 ${fx.away || ""}`)}</h2>
@@ -258,7 +271,7 @@
       const id = typeof item === "string" ? item : item.id;
       const label = typeof item === "string" ? item : item.label;
       const pressed = current === id ? "true" : "false";
-      return `<button type="button" class="filter-btn" data-id="${escapeHtml(id)}" aria-pressed="${pressed}">${escapeHtml(label)}</button>`;
+      return `<button type="button" class="filter-btn" data-id="${escapeHtml(id)}" aria-pressed="${pressed}">${leagueBadgeHtml(label)}</button>`;
     }).join("");
     box.querySelectorAll(".filter-btn").forEach((btn) => {
       btn.addEventListener("click", () => onPick(btn.getAttribute("data-id")));
@@ -362,7 +375,7 @@
     const box = $("league-filters");
     box.innerHTML = LEAGUES.map((name) => {
       const pressed = state.recordFilter === name ? "true" : "false";
-      return `<button type="button" class="filter-btn" data-league="${escapeHtml(name)}" aria-pressed="${pressed}">${escapeHtml(name)}</button>`;
+      return `<button type="button" class="filter-btn" data-league="${escapeHtml(name)}" aria-pressed="${pressed}">${leagueBadgeHtml(name)}</button>`;
     }).join("");
     box.querySelectorAll(".filter-btn").forEach((btn) => {
       btn.addEventListener("click", () => {
@@ -436,7 +449,7 @@
     for (const name of names) {
       const b = stats.by_league[name];
       const bpl = formatPl(b.unit_pl);
-      html += `<section class="league-block"><h2>${escapeHtml(name)}</h2>
+      html += `<section class="league-block"><h2>${leagueBadgeHtml(name)}</h2>
         <div class="stats-grid">
           ${statCard("提示數目", String(b.tips))}
           ${statCard("勝率", pct(b.win_rate))}

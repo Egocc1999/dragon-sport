@@ -105,11 +105,14 @@ textarea {
   min-width: 0;
 }
 
-.seal {
-  width: 40px;
-  height: 40px;
-  flex: 0 0 40px;
-  border-radius: 50%;
+.brand-logo {
+  width: 56px;
+  height: 56px;
+  flex: 0 0 56px;
+  border-radius: 12px;
+  background: #0b0f14;
+  object-fit: cover;
+  display: block;
 }
 
 .brand-text {
@@ -192,14 +195,24 @@ textarea {
 }
 
 .league-pill {
-  display: inline-block;
-  padding: 2px 8px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 2px 8px 2px 4px;
   border-radius: 999px;
   background: var(--gold-dim);
   color: var(--gold);
   font-size: 0.75rem;
   font-weight: 700;
   letter-spacing: 0.06em;
+}
+
+.league-badge {
+  width: 18px;
+  height: 18px;
+  flex: 0 0 18px;
+  display: block;
+  border-radius: 3px;
 }
 
 .status-pill {
@@ -331,6 +344,9 @@ textarea {
 
 .filter-btn {
   appearance: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
   border: 1px solid var(--card-line);
   background: var(--chip);
   color: var(--text);
@@ -390,6 +406,9 @@ textarea {
   margin: 0 0 8px;
   font-size: 1rem;
   color: var(--gold);
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .foot {
