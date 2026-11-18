@@ -1,6 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-hidden="true">
-  <circle cx="32" cy="32" r="27" fill="#8e1b2a" stroke="#c4a35a" stroke-width="3"/>
-  <path d="M18 19 A20 11 0 0 1 46 19" fill="none" stroke="#e8c36a" stroke-width="2.4" stroke-linecap="round"/>
-  <text x="32" y="42" text-anchor="middle" font-size="17" font-weight="800"
-        font-family="Arial Black, Arial, Helvetica, sans-serif" fill="#c4a35a">LL</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 96" role="img" aria-hidden="true">
+  <defs>
+    <clipPath id="clip-ll"><rect x="4" y="4" width="64" height="58" rx="6"/></clipPath>
+  </defs>
+  <rect x="1.5" y="1.5" width="69" height="93" rx="10" fill="#0b0f14" stroke="#c4a35a" stroke-width="3"/>
+  <g clip-path="url(#clip-ll)">
+    <rect x="4" y="4" width="64" height="14.5" fill="#AA151B"/>
+    <rect x="4" y="18.5" width="64" height="29.0" fill="#F1BF00"/>
+    <rect x="4" y="47.5" width="64" height="14.5" fill="#AA151B"/>
+  </g>
+  <text x="36.0" y="83.0" text-anchor="middle" font-size="20" font-weight="800"
+        font-family="Liberation Sans, Arial Black, Arial, Helvetica, sans-serif"
+        fill="#e8c36a">LL</text>
 </svg>

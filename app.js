@@ -30,7 +30,7 @@
     const label = name || "";
     const src = LEAGUE_BADGE[label];
     if (!src) return escapeHtml(label);
-    return `<img class="league-badge" src="${src}" width="18" height="18" alt="" aria-hidden="true"><span>${escapeHtml(label)}</span>`;
+    return `<img class="league-badge" src="${src}" width="22" height="30" alt="" aria-hidden="true"><span>${escapeHtml(label)}</span>`;
   }
 
   function isDemoMode() {

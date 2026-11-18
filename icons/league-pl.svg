@@ -1,6 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-hidden="true">
-  <path fill="#1c1648" stroke="#c4a35a" stroke-width="3" stroke-linejoin="round"
-        d="M32 5 L55 13.5 V33.5 C55 47.5 44.5 56.5 32 60.5 C19.5 56.5 9 47.5 9 33.5 V13.5 Z"/>
-  <text x="32" y="39" text-anchor="middle" font-size="17" font-weight="800"
-        font-family="Arial Black, Arial, Helvetica, sans-serif" fill="#c4a35a">PL</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 96" role="img" aria-hidden="true">
+  <defs>
+    <clipPath id="clip-pl"><rect x="4" y="4" width="64" height="58" rx="6"/></clipPath>
+  </defs>
+  <rect x="1.5" y="1.5" width="69" height="93" rx="10" fill="#0b0f14" stroke="#c4a35a" stroke-width="3"/>
+  <g clip-path="url(#clip-pl)">
+    <rect x="4" y="4" width="64" height="58" fill="#FFFFFF"/>
+    <rect x="4" y="28.0" width="64" height="10" fill="#CF142B"/>
+    <rect x="31.0" y="4" width="10" height="58" fill="#CF142B"/>
+  </g>
+  <text x="36.0" y="83.0" text-anchor="middle" font-size="20" font-weight="800"
+        font-family="Liberation Sans, Arial Black, Arial, Helvetica, sans-serif"
+        fill="#e8c36a">PL</text>
 </svg>

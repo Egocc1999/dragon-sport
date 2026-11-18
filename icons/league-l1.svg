@@ -1,5 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-hidden="true">
-  <polygon points="32,5 55,18.5 55,45.5 32,59 9,45.5 9,18.5" fill="#12264a" stroke="#c4a35a" stroke-width="3" stroke-linejoin="round"/>
-  <text x="32" y="40" text-anchor="middle" font-size="16" font-weight="800"
-        font-family="Arial Black, Arial, Helvetica, sans-serif" fill="#c4a35a">L1</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 96" role="img" aria-hidden="true">
+  <defs>
+    <clipPath id="clip-l1"><rect x="4" y="4" width="64" height="58" rx="6"/></clipPath>
+  </defs>
+  <rect x="1.5" y="1.5" width="69" height="93" rx="10" fill="#0b0f14" stroke="#c4a35a" stroke-width="3"/>
+  <g clip-path="url(#clip-l1)">
+    <rect x="4" y="4" width="21.333333333333332" height="58" fill="#0055A4"/>
+    <rect x="25.333333333333332" y="4" width="21.333333333333332" height="58" fill="#FFFFFF"/>
+    <rect x="46.666666666666664" y="4" width="21.833333333333332" height="58" fill="#EF4135"/>
+  </g>
+  <text x="36.0" y="83.0" text-anchor="middle" font-size="20" font-weight="800"
+        font-family="Liberation Sans, Arial Black, Arial, Helvetica, sans-serif"
+        fill="#e8c36a">L1</text>
 </svg>
