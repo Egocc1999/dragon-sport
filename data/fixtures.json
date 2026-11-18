@@ -2,12 +2,12 @@
   "version": 1,
   "product": "DRAGON SPORTS",
   "timezone": "Asia/Hong_Kong",
-  "generated_at": "2026-11-17T18:45:29+08:00",
+  "generated_at": "2026-11-19T01:15:24+08:00",
   "season": 2026,
   "window": {
-    "from": "2026-10-03",
-    "to": "2026-11-25",
-    "today": "2026-11-17"
+    "from": "2026-10-05",
+    "to": "2026-11-27",
+    "today": "2026-11-19"
   },
   "fixtures": [
     {

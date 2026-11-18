@@ -1,0 +1,636 @@
+{
+  "generated_at": "2026-11-19T01:16:37+08:00",
+  "timezone": "Asia/Hong_Kong",
+  "disclaimer": "V1 紙上往績，提示會在開波前鎖定，賽後不改歷史；這不保證獲勝。",
+  "summary": {
+    "considered": 38,
+    "proposed": 4,
+    "skipped": [
+      {
+        "fixture_id": 3441772136,
+        "match": "曼城 對 富咸",
+        "reason": "沒有選項通過高信心門檻"
+      },
+      {
+        "fixture_id": 4042864659,
+        "match": "阿士東維拉 對 新特蘭",
+        "reason": "沒有選項通過高信心門檻"
+      },
+      {
+        "fixture_id": 2824034833,
+        "match": "般尼茅夫 對 諾定咸森林",
+        "reason": "沒有選項通過高信心門檻"
+      },
+      {
+        "fixture_id": 1716341325,
+        "match": "車路士 對 列斯聯",
+        "reason": "沒有選項通過高信心門檻"
+      },
+      {
+        "fixture_id": 1841438992,
+        "match": "熱刺 對 葉士域治",
+        "reason": "沒有選項通過高信心門檻"
+      },
+      {
+        "fixture_id": 1525890955,
+        "match": "紐卡素 對 阿仙奴",
+        "reason": "沒有選項通過高信心門檻"
+      },
+      {
+        "fixture_id": 2359905710,
+        "match": "赫爾城 對 白禮頓",
+        "reason": "沒有選項通過高信心門檻"
+      },
+      {
+        "fixture_id": 3610624692,
+        "match": "利物浦 對 曼聯",
+        "reason": "沒有選項通過高信心門檻"
+      },
+      {
+        "fixture_id": 4120059752,
+        "match": "賓福特 對 愛華頓",
+        "reason": "沒有選項通過高信心門檻"
+      },
+      {
+        "fixture_id": 128027062,
+        "match": "畢爾包 對 愛斯賓奴",
+        "reason": "沒有選項通過高信心門檻"
+      },
+      {
+        "fixture_id": 1119106703,
+        "match": "阿拉維斯 對 拉科魯尼亞",
+        "reason": "沒有選項通過高信心門檻"
+      },
+      {
+        "fixture_id": 2766188767,
+        "match": "華歷簡奴 對 華倫西亞",
+        "reason": "沒有選項通過高信心門檻"
+      },
+      {
+        "fixture_id": 3206476975,
+        "match": "奧沙辛拿 對 馬拉加",
+        "reason": "沒有選項通過高信心門檻"
+      },
+      {
+        "fixture_id": 582801727,
+        "match": "赫塔費 對 馬德里體育會",
+        "reason": "沒有選項通過高信心門檻"
+      },
+      {
+        "fixture_id": 3462353022,
+        "match": "利雲特 對 埃爾切",
+        "reason": "沒有選項通過高信心門檻"
+      },
+      {
+        "fixture_id": 2957547991,
+        "match": "沙爾克 對 史特加",
+        "reason": "沒有選項通過高信心門檻"
+      },
+      {
+        "fixture_id": 3650235731,
+        "match": "特魯瓦 對 勒阿弗爾",
+        "reason": "沒有選項通過高信心門檻"
+      },
+      {
+        "fixture_id": 4201003913,
+        "match": "朗斯 對 圖盧茲",
+        "reason": "沒有選項通過高信心門檻"
+      },
+      {
+        "fixture_id": 1447134977,
+        "match": "里爾 對 里昂",
+        "reason": "沒有選項通過高信心門檻"
+      },
+      {
+        "fixture_id": 2774295293,
+        "match": "桑坦德競技 對 皇家蘇斯達",
+        "reason": "已達本輪上限 4 條，寧缺毋濫"
+      },
+      {
+        "fixture_id": 1110916786,
+        "match": "埃爾弗斯貝格 對 弗賴堡",
+        "reason": "已達本輪上限 4 條，寧缺毋濫"
+      },
+      {
+        "fixture_id": 348319341,
+        "match": "斯特拉斯堡 對 布雷斯特",
+        "reason": "已達本輪上限 4 條，寧缺毋濫"
+      },
+      {
+        "fixture_id": 4053442666,
+        "match": "馬賽 對 勒芒",
+        "reason": "已達本輪上限 4 條，寧缺毋濫"
+      },
+      {
+        "fixture_id": 2395548735,
+        "match": "拜仁慕尼黑 對 科隆",
+        "reason": "已達本輪上限 4 條，寧缺毋濫"
+      },
+      {
+        "fixture_id": 2166841477,
+        "match": "雲達不萊梅 對 漢堡",
+        "reason": "已達本輪上限 4 條，寧缺毋濫"
+      },
+      {
+        "fixture_id": 392317795,
+        "match": "高雲地利 對 水晶宮",
+        "reason": "已達本輪上限 4 條，寧缺毋濫"
+      },
+      {
+        "fixture_id": 3826743852,
+        "match": "皇家馬德里 對 維戈切爾達",
+        "reason": "已達本輪上限 4 條，寧缺毋濫"
+      },
+      {
+        "fixture_id": 238976367,
+        "match": "利華古遜 對 帕德博恩",
+        "reason": "已達本輪上限 4 條，寧缺毋濫"
+      },
+      {
+        "fixture_id": 2645283104,
+        "match": "巴黎FC 對 昂熱",
+        "reason": "已達本輪上限 4 條，寧缺毋濫"
+      },
+      {
+        "fixture_id": 787926191,
+        "match": "西維爾 對 皇家貝迪斯",
+        "reason": "已達本輪上限 4 條，寧缺毋濫"
+      },
+      {
+        "fixture_id": 2682024588,
+        "match": "慕遜加柏 對 多蒙特",
+        "reason": "已達本輪上限 4 條，寧缺毋濫"
+      },
+      {
+        "fixture_id": 2641799999,
+        "match": "尼斯 對 巴黎聖日耳門",
+        "reason": "已達本輪上限 4 條，寧缺毋濫"
+      },
+      {
+        "fixture_id": 2743952741,
+        "match": "摩納哥 對 歐塞爾",
+        "reason": "已達本輪上限 4 條，寧缺毋濫"
+      },
+      {
+        "fixture_id": 436500201,
+        "match": "洛里昂 對 雷恩",
+        "reason": "已達本輪上限 4 條，寧缺毋濫"
+      }
+    ],
+    "note": "已選出通過門檻的少數提示。"
+  },
+  "proposals": [
+    {
+      "id": "ds-1369956246-over-20261122",
+      "status": "proposed",
+      "league": "德甲",
+      "league_id": 686337048,
+      "match": "奧格斯堡 對 美茵茨",
+      "home_team": "奧格斯堡",
+      "away_team": "美茵茨",
+      "fixture_id": 1369956246,
+      "kickoff": "2026-11-22T22:30:00+08:00",
+      "kickoff_label": "2026年11月22日（週日） 22:30（香港時間）",
+      "market": "大小球",
+      "pick": "大 2.5",
+      "pick_code": "over",
+      "line": 2.5,
+      "reference_odds": null,
+      "stake_units": 1.0,
+      "rationale": "依據場均得球、場均失球、近況得失球；估計入球期望約主 2.39、客 2.14；此場沒有可用參考賠率，門檻較高；這是模型估計，不保證獲勝。",
+      "model_prob": 0.8299,
+      "edge": null,
+      "confidence": 0.8299,
+      "input_snapshot": {
+        "home": {
+          "team_id": 2286875894,
+          "team_name": "Augsburg",
+          "rank": 14,
+          "points": 9,
+          "goals_diff": 0,
+          "table_form": null,
+          "season_played": 9,
+          "season_ppg": 1.0,
+          "season_gf": 2.2222222222222223,
+          "season_ga": 2.2222222222222223,
+          "home_played": null,
+          "away_played": null,
+          "home_ppg": null,
+          "away_ppg": null,
+          "home_gf": null,
+          "home_ga": null,
+          "away_gf": null,
+          "away_ga": null,
+          "form_available": true,
+          "form_played": 5,
+          "form_ppg": 0.4,
+          "form_gf": 1.8,
+          "form_ga": 2.8,
+          "form_sequence": "DLDLL",
+          "form_note": null
+        },
+        "away": {
+          "team_id": 967176045,
+          "team_name": "Mainz",
+          "rank": 12,
+          "points": 10,
+          "goals_diff": -1,
+          "table_form": null,
+          "season_played": 9,
+          "season_ppg": 1.1111111111111112,
+          "season_gf": 2.0,
+          "season_ga": 2.111111111111111,
+          "home_played": null,
+          "away_played": null,
+          "home_ppg": null,
+          "away_ppg": null,
+          "home_gf": null,
+          "home_ga": null,
+          "away_gf": null,
+          "away_ga": null,
+          "form_available": true,
+          "form_played": 5,
+          "form_ppg": 0.6,
+          "form_gf": 1.6,
+          "form_ga": 2.6,
+          "form_sequence": "LWLLL",
+          "form_note": null
+        },
+        "league_avgs": {
+          "n_teams": 18,
+          "avg_gf": 1.7407407407407407,
+          "avg_ga": 1.740740740740741,
+          "avg_home_gf": null,
+          "avg_home_ga": null,
+          "avg_away_gf": null,
+          "avg_away_ga": null
+        },
+        "odds": {
+          "available": false,
+          "one_x_two": null,
+          "ou_25": null,
+          "source": null
+        },
+        "standings_available": true,
+        "model_source": "poisson",
+        "model_meta": {
+          "method": "poisson_overall",
+          "lambda_home": 2.3943,
+          "lambda_away": 2.1378,
+          "home_att_src": "season+form",
+          "away_att_src": "season+form",
+          "home_advantage_lambda": 1.1
+        },
+        "inputs_used": [
+          "場均得球",
+          "場均失球",
+          "近況得失球"
+        ],
+        "model_prob": 0.8299,
+        "implied_prob": null,
+        "edge": null,
+        "confidence": 0.8299,
+        "xg": "不使用。V1 不估計、不填入 xG。"
+      }
+    },
+    {
+      "id": "ds-487591422-over-20261122",
+      "status": "proposed",
+      "league": "西甲",
+      "league_id": 4212821298,
+      "match": "巴塞羅那 對 維拉利爾",
+      "home_team": "巴塞羅那",
+      "away_team": "維拉利爾",
+      "fixture_id": 487591422,
+      "kickoff": "2026-11-22T21:00:00+08:00",
+      "kickoff_label": "2026年11月22日（週日） 21:00（香港時間）",
+      "market": "大小球",
+      "pick": "大 2.5",
+      "pick_code": "over",
+      "line": 2.5,
+      "reference_odds": null,
+      "stake_units": 1.0,
+      "rationale": "依據場均得球、場均失球、近況得失球；估計入球期望約主 2.68、客 1.18；此場沒有可用參考賠率，門檻較高；這是模型估計，不保證獲勝。",
+      "model_prob": 0.74,
+      "edge": null,
+      "confidence": 0.74,
+      "input_snapshot": {
+        "home": {
+          "team_id": 3683697646,
+          "team_name": "Barcelona",
+          "rank": 1,
+          "points": 33,
+          "goals_diff": 35,
+          "table_form": null,
+          "season_played": 12,
+          "season_ppg": 2.75,
+          "season_gf": 4.0,
+          "season_ga": 1.0833333333333333,
+          "home_played": null,
+          "away_played": null,
+          "home_ppg": null,
+          "away_ppg": null,
+          "home_gf": null,
+          "home_ga": null,
+          "away_gf": null,
+          "away_ga": null,
+          "form_available": true,
+          "form_played": 5,
+          "form_ppg": 2.4,
+          "form_gf": 3.4,
+          "form_ga": 1.2,
+          "form_sequence": "WWLWW",
+          "form_note": null
+        },
+        "away": {
+          "team_id": 2915727203,
+          "team_name": "Villarreal",
+          "rank": 8,
+          "points": 15,
+          "goals_diff": 2,
+          "table_form": null,
+          "season_played": 12,
+          "season_ppg": 1.25,
+          "season_gf": 1.4166666666666667,
+          "season_ga": 1.25,
+          "home_played": null,
+          "away_played": null,
+          "home_ppg": null,
+          "away_ppg": null,
+          "home_gf": null,
+          "home_ga": null,
+          "away_gf": null,
+          "away_ga": null,
+          "form_available": true,
+          "form_played": 5,
+          "form_ppg": 1.4,
+          "form_gf": 0.8,
+          "form_ga": 0.6,
+          "form_sequence": "LDWLW",
+          "form_note": null
+        },
+        "league_avgs": {
+          "n_teams": 20,
+          "avg_gf": 1.4446969696969698,
+          "avg_ga": 1.4454545454545455,
+          "avg_home_gf": null,
+          "avg_home_ga": null,
+          "avg_away_gf": null,
+          "avg_away_ga": null
+        },
+        "odds": {
+          "available": false,
+          "one_x_two": null,
+          "ou_25": null,
+          "source": null
+        },
+        "standings_available": true,
+        "model_source": "poisson",
+        "model_meta": {
+          "method": "poisson_overall",
+          "lambda_home": 2.6813,
+          "lambda_away": 1.175,
+          "home_att_src": "season+form",
+          "away_att_src": "season+form",
+          "home_advantage_lambda": 1.1
+        },
+        "inputs_used": [
+          "場均得球",
+          "場均失球",
+          "近況得失球"
+        ],
+        "model_prob": 0.74,
+        "implied_prob": null,
+        "edge": null,
+        "confidence": 0.74,
+        "xg": "不使用。V1 不估計、不填入 xG。"
+      }
+    },
+    {
+      "id": "ds-199062688-over-20261121",
+      "status": "proposed",
+      "league": "德甲",
+      "league_id": 686337048,
+      "match": "法蘭克福 對 霍芬海姆",
+      "home_team": "法蘭克福",
+      "away_team": "霍芬海姆",
+      "fixture_id": 199062688,
+      "kickoff": "2026-11-21T22:30:00+08:00",
+      "kickoff_label": "2026年11月21日（週六） 22:30（香港時間）",
+      "market": "大小球",
+      "pick": "大 2.5",
+      "pick_code": "over",
+      "line": 2.5,
+      "reference_odds": null,
+      "stake_units": 1.0,
+      "rationale": "依據場均得球、場均失球、近況得失球；估計入球期望約主 1.80、客 1.97；此場沒有可用參考賠率，門檻較高；這是模型估計，不保證獲勝。",
+      "model_prob": 0.7259,
+      "edge": null,
+      "confidence": 0.7259,
+      "input_snapshot": {
+        "home": {
+          "team_id": 3755696962,
+          "team_name": "Eintracht Frankfurt",
+          "rank": 10,
+          "points": 12,
+          "goals_diff": -5,
+          "table_form": null,
+          "season_played": 9,
+          "season_ppg": 1.3333333333333333,
+          "season_gf": 1.6666666666666667,
+          "season_ga": 2.2222222222222223,
+          "home_played": null,
+          "away_played": null,
+          "home_ppg": null,
+          "away_ppg": null,
+          "home_gf": null,
+          "home_ga": null,
+          "away_gf": null,
+          "away_ga": null,
+          "form_available": true,
+          "form_played": 5,
+          "form_ppg": 1.4,
+          "form_gf": 1.2,
+          "form_ga": 2.0,
+          "form_sequence": "LWLWD",
+          "form_note": null
+        },
+        "away": {
+          "team_id": 2128113652,
+          "team_name": "TSG Hoffenheim",
+          "rank": 9,
+          "points": 12,
+          "goals_diff": -1,
+          "table_form": null,
+          "season_played": 9,
+          "season_ppg": 1.3333333333333333,
+          "season_gf": 1.7777777777777777,
+          "season_ga": 1.8888888888888888,
+          "home_played": null,
+          "away_played": null,
+          "home_ppg": null,
+          "away_ppg": null,
+          "home_gf": null,
+          "home_ga": null,
+          "away_gf": null,
+          "away_ga": null,
+          "form_available": true,
+          "form_played": 5,
+          "form_ppg": 1.8,
+          "form_gf": 1.8,
+          "form_ga": 1.4,
+          "form_sequence": "LWWLW",
+          "form_note": null
+        },
+        "league_avgs": {
+          "n_teams": 18,
+          "avg_gf": 1.7407407407407407,
+          "avg_ga": 1.740740740740741,
+          "avg_home_gf": null,
+          "avg_home_ga": null,
+          "avg_away_gf": null,
+          "avg_away_ga": null
+        },
+        "odds": {
+          "available": false,
+          "one_x_two": null,
+          "ou_25": null,
+          "source": null
+        },
+        "standings_available": true,
+        "model_source": "poisson",
+        "model_meta": {
+          "method": "poisson_overall",
+          "lambda_home": 1.7979,
+          "lambda_away": 1.97,
+          "home_att_src": "season+form",
+          "away_att_src": "season+form",
+          "home_advantage_lambda": 1.1
+        },
+        "inputs_used": [
+          "場均得球",
+          "場均失球",
+          "近況得失球"
+        ],
+        "model_prob": 0.7259,
+        "implied_prob": null,
+        "edge": null,
+        "confidence": 0.7259,
+        "xg": "不使用。V1 不估計、不填入 xG。"
+      }
+    },
+    {
+      "id": "ds-2955264025-over-20261121",
+      "status": "proposed",
+      "league": "德甲",
+      "league_id": 686337048,
+      "match": "聯合柏林 對 萊比錫",
+      "home_team": "聯合柏林",
+      "away_team": "萊比錫",
+      "fixture_id": 2955264025,
+      "kickoff": "2026-11-21T22:30:00+08:00",
+      "kickoff_label": "2026年11月21日（週六） 22:30（香港時間）",
+      "market": "大小球",
+      "pick": "大 2.5",
+      "pick_code": "over",
+      "line": 2.5,
+      "reference_odds": null,
+      "stake_units": 1.0,
+      "rationale": "依據場均得球、場均失球、近況得失球；估計入球期望約主 1.22、客 2.53；此場沒有可用參考賠率，門檻較高；這是模型估計，不保證獲勝。",
+      "model_prob": 0.7221,
+      "edge": null,
+      "confidence": 0.7221,
+      "input_snapshot": {
+        "home": {
+          "team_id": 3783092982,
+          "team_name": "Union Berlin",
+          "rank": 16,
+          "points": 7,
+          "goals_diff": -14,
+          "table_form": null,
+          "season_played": 9,
+          "season_ppg": 0.7777777777777778,
+          "season_gf": 0.7777777777777778,
+          "season_ga": 2.3333333333333335,
+          "home_played": null,
+          "away_played": null,
+          "home_ppg": null,
+          "away_ppg": null,
+          "home_gf": null,
+          "home_ga": null,
+          "away_gf": null,
+          "away_ga": null,
+          "form_available": true,
+          "form_played": 5,
+          "form_ppg": 1.2,
+          "form_gf": 0.6,
+          "form_ga": 0.8,
+          "form_sequence": "WDDDL",
+          "form_note": null
+        },
+        "away": {
+          "team_id": 3431806434,
+          "team_name": "RB Leipzig",
+          "rank": 4,
+          "points": 18,
+          "goals_diff": 14,
+          "table_form": null,
+          "season_played": 9,
+          "season_ppg": 2.0,
+          "season_gf": 3.0,
+          "season_ga": 1.4444444444444444,
+          "home_played": null,
+          "away_played": null,
+          "home_ppg": null,
+          "away_ppg": null,
+          "home_gf": null,
+          "home_ga": null,
+          "away_gf": null,
+          "away_ga": null,
+          "form_available": true,
+          "form_played": 5,
+          "form_ppg": 2.4,
+          "form_gf": 3.6,
+          "form_ga": 1.6,
+          "form_sequence": "WLWWW",
+          "form_note": null
+        },
+        "league_avgs": {
+          "n_teams": 18,
+          "avg_gf": 1.7407407407407407,
+          "avg_ga": 1.740740740740741,
+          "avg_home_gf": null,
+          "avg_home_ga": null,
+          "avg_away_gf": null,
+          "avg_away_ga": null
+        },
+        "odds": {
+          "available": false,
+          "one_x_two": null,
+          "ou_25": null,
+          "source": null
+        },
+        "standings_available": true,
+        "model_source": "poisson",
+        "model_meta": {
+          "method": "poisson_overall",
+          "lambda_home": 1.2186,
+          "lambda_away": 2.5267,
+          "home_att_src": "season+form",
+          "away_att_src": "season+form",
+          "home_advantage_lambda": 1.1
+        },
+        "inputs_used": [
+          "場均得球",
+          "場均失球",
+          "近況得失球"
+        ],
+        "model_prob": 0.7221,
+        "implied_prob": null,
+        "edge": null,
+        "confidence": 0.7221,
+        "xg": "不使用。V1 不估計、不填入 xG。"
+      }
+    }
+  ]
+}
