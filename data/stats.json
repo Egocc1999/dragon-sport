@@ -2,9 +2,31 @@
   "version": 1,
   "product": "DRAGON SPORTS",
   "timezone": "Asia/Hong_Kong",
-  "generated_at": "2026-11-19T01:16:49+08:00",
+  "generated_at": "2026-11-22T17:14:54+08:00",
   "disclaimer": "V1 紙上往績，提示會在開波前鎖定，賽後不改歷史；這不保證獲勝。",
-  "has_settled_record": false,
-  "overall": null,
-  "by_league": {}
+  "has_settled_record": true,
+  "overall": {
+    "tips": 2,
+    "wins": 1,
+    "losses": 1,
+    "pushes": 0,
+    "voids": 0,
+    "win_rate": 0.5,
+    "unit_pl": -1.0,
+    "unit_pl_counted": 1,
+    "unit_pl_missing": 1
+  },
+  "by_league": {
+    "德甲": {
+      "tips": 2,
+      "wins": 1,
+      "losses": 1,
+      "pushes": 0,
+      "voids": 0,
+      "win_rate": 0.5,
+      "unit_pl": -1.0,
+      "unit_pl_counted": 1,
+      "unit_pl_missing": 1
+    }
+  }
 }

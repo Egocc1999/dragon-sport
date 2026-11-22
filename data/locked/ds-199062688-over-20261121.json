@@ -1,6 +1,6 @@
 {
   "id": "ds-199062688-over-20261121",
-  "status": "locked",
+  "status": "settled",
   "league": "德甲",
   "league_id": 686337048,
   "match": "法蘭克福 對 霍芬海姆",
@@ -112,13 +112,16 @@
   },
   "lock_time": "2026-11-19T01:16:49+08:00",
   "lock_time_label": "2026年11月19日 01:16（香港時間）",
-  "result": null,
-  "result_label": null,
-  "score": null,
-  "score_label": null,
-  "unit_pl": null,
-  "settled_at": null,
-  "settled_at_label": null,
-  "grade_status": null,
-  "official_status": null
+  "result": "lost",
+  "result_label": "不中（總入球 1，結果偏小）",
+  "score": {
+    "home": 1,
+    "away": 0
+  },
+  "score_label": "1–0",
+  "unit_pl": -1.0,
+  "settled_at": "2026-11-22T17:14:54+08:00",
+  "settled_at_label": "2026年11月22日 17:14（香港時間）",
+  "grade_status": "lost",
+  "official_status": "FT"
 }
